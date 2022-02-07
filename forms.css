@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f0f8ff;
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    transform: translateY(50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(135, 206, 235);
+    width: 75vw;
+    height: 50vh;
+}
+
+.form-container{
+    background-color: rgb(222, 235, 247);
+    height: 90%;
+    width: 90%;
+}
