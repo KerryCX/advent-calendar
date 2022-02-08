@@ -2,17 +2,38 @@
 <head>
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width", initial-scale="1.0"/>
-    <title>forms</title>
+    <title>Newsletter Sign Up</title>
     <link href="forms.css" type="text/css" rel="stylesheet"/>
     <script src="forms.js" defer></script>
 </head>
 <html lang = "GB-en">
 <body>
-  <section class="container">
-      <form class="form-container">
-
+  <main>
+    <header class="header-style">Newsletter Sign Up</header>
+    <div class="form-wrapper">
+      <form>
+        <div class="fieldContainer">
+          <label for="nameField">Name: </label>
+          <input type="text" id="nameField" placeholder="Name.."></input>
+          <div id="nameAuth" class="message-success"></div>
+        </div>
+        <div id="nameWarn" class="message-warn"></div>
+        <div class="fieldContainer">
+          <label for="emailField">Email: </label>
+          <input type="text" id="emailField" placeholder="Email.."></input>
+          <div id="emailAuth" class="message-success"></div>
+        </div>
+        <div id="emailWarn" class="message-warn"></div>
+        <div class="fieldContainer">
+          <label for="ageField">Age: </label>
+          <input type="number" id="ageField" placeholder="Age"></input>
+          <div id="ageAuth" class="message-success"></div>
+        </div>
+        <div id="ageWarn" class="message-warn"></div>
+        <button type="submit" id="submitButtonField">Sign Up!</button>
       </form>
-  </section>
+    </div>
+</main>
 </body>
 
 </html>
